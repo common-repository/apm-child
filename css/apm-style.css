@@ -1,0 +1,198 @@
+.txt-apmbox{margin-bottom:10px;}
+.package-column{width:28%; float:left; padding:15px; border:1px solid #666; min-height:160px; text-align:center; border-radius:5px; margin:10px;}
+.package-column h4{font-size:25px; line-height:30px;}
+.banner-package-column{min-height:60px; height:auto}
+.banner-ads-list{list-style-type:none; clear:both; }
+.banner-package-column img{width:100%;}
+.package-headline{font-size: 23px; padding: 9px 0 4px; line-height: 29px; font-weight: 400; float:left; margin-bottom:0;}
+.package-result-area{width:100%; float:left}
+.powered-by-alert{width:100%; position:absolute; bottom:50px; right:25px; text-align:right;  font-weight:700;}
+.txt-apmboxarea{width:100%; height:80px;}
+.txt-apmbox{margin-bottom:10px; height:28px}
+
+.frm_share_success .txt-apmbox{max-width:300px; width:100%;}
+
+.frm_share_success .row-full-width > label{
+	font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form-area{width:70%; float:left; margin-top:30px;}
+.form-row{width:100%; float:left;}
+.form-col{width:49%; float:left;}
+.row-full-width{width:100%; float:left; margin:10px 0;}
+.jvzoo_ipn_clickboard_txt_box{width:100%; max-width:550px;}
+.jvzoo_ipn_clickboard_btn{margin-top:3px !important}
+#my_income_from_date, #my_income_to_date{width:100%;}
+.frm_my_income_search{max-width:500px; width:100%; padding:20px 0;}
+
+    /* Popup box BEGIN */
+	.hover_bkgr_fricc{
+		background:rgba(0,0,0,.4);
+		cursor:pointer;
+		display:none;
+		height:100%;
+		position:fixed;
+		text-align:center;
+		top:0;
+		width:100%;
+		z-index:10000;
+	}
+	.hover_bkgr_fricc .helper{
+		display:inline-block;
+		height:100%;
+		vertical-align:middle;
+	}
+	.hover_bkgr_fricc > div {
+		background-color: #fff;
+		box-shadow: 10px 10px 60px #555;
+		display: inline-block;
+		height: auto;
+		max-width: 551px;
+		min-height: 100px;
+		vertical-align: middle;
+		width: 60%;
+		position: relative;
+		border-radius: 8px;
+		padding: 15px 5%;
+	}
+	.popupCloseButton {
+		background-color: #fff;
+		border: 3px solid #999;
+		border-radius: 50px;
+		cursor: pointer;
+		display: inline-block;
+		font-family: arial;
+		font-weight: bold;
+		position: absolute;
+		top: -20px;
+		right: -20px;
+		font-size: 25px;
+		line-height: 30px;
+		width: 30px;
+		height: 30px;
+		text-align: center;
+	}
+	.popupCloseButton:hover {
+		background-color: #ccc;
+	}
+	.trigger_popup_fricc {
+		cursor: pointer;
+		font-size: 20px;
+		margin: 20px;
+		display: inline-block;
+		font-weight: bold;
+	}
+	
+.frm_share_success{
+	max-width:750px;
+}
+
+/* The apm_radio_container */
+
+.frm_share_success .apm_radio_container{
+	display:block !important;
+}
+
+.apm-checkbox-style .apm_radio_container,
+.frm_share_success .apm_radio_container, 
+.frm_notification_settings .apm_radio_container {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right:10px;
+  font-weight:400 !important
+}
+
+/* Hide the browser's default radio button */
+.apm_radio_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.apm_radio_container .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #dad8d8;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.apm_radio_container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.apm_radio_container input:checked ~ .checkmark {
+  background-color: #007cba;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.apm_radio_container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.apm_radio_container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.apm_radio_container .checkmark:after {
+ 	top: 9px;
+	left: 8px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.row-full-width .frm_notification_settings{
+	width:100%;
+	max-width:750px;
+	float:right;
+}
+
+.row-full-width .frm_notification_settings .notification-lable{
+	font-weight: 700;
+    margin-top: 15px;
+	font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.row-full-width  .form-col-1{
+	width:35%;
+	float:left;
+}
+
+.row-full-width  .form-col-2{
+	width:60%;
+	float:right;
+}
+
+li.toplevel_page_optin-monster-dashboard ul li{
+	display:none;
+}
+
+li.toplevel_page_optin-monster-dashboard ul li:nth-child(3){
+	display:block !important;
+}
+
+.omapi-add-new{
+	display:none;
+}

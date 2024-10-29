@@ -1,0 +1,170 @@
+body {
+  background: linear-gradient(rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.4) 100%), url("../../assets/img/vault-bkg.png") center / cover no-repeat fixed, var(--bs-body-bg);
+  width: 100%;
+  height: 100vh;
+}
+
+#section1 {
+  width: 100%;
+  height: 100vh;
+}
+
+#container1 {
+  width: 95%;
+  margin-top: 20px;
+}
+
+#text-top {
+  color: var(--bs-body-bg);
+  font-size: 19px;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  line-height: 22px;
+}
+
+#section1 .align-self-center{
+		text-align:center;
+}
+
+@media (min-width: 992px) {
+  #text-top {
+    color: var(--bs-body-bg);
+    font-size: 27px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: 30px;
+  }
+}
+
+#nick-kate {
+  width: 100%;
+  max-width:300px;
+}
+
+#headline {
+  color: var(--bs-emphasis-color);
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  font-size: 36px;
+  padding-top: 9px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 36.6px;
+}
+
+@media (min-width: 992px) {
+  #headline {
+    color: var(--bs-emphasis-color);
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 9px;
+    line-height: 42px;
+  }
+}
+
+@media (min-width: 992px) {
+  #container1 {
+    width: 960px;
+    margin-top: 20px;
+  }
+}
+
+#text-bottom {
+  color: var(--bs-emphasis-color);
+  font-family: Montserrat, sans-serif;
+  font-size: 19px;
+  text-align: center;
+  margin: 9px 0px 16px;
+  margin-top: 17px;
+  line-height: 20.5px;
+}
+
+@media (min-width: 992px) {
+  #text-bottom {
+    color: var(--bs-emphasis-color);
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin: 9px 0px 16px;
+    margin-top: 17px;
+    line-height: 33.5px;
+  }
+}
+
+#form-container {
+  background: rgba(255,249,227,0);
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+  border-style: none;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media (min-width: 992px) {
+  #form-container {
+    background: rgba(255,249,227,0);
+    border-radius: 8px;
+    padding: 10px;
+    width: 800px;
+    border-style: none;
+  }
+}
+
+#form-text {
+  font-family: Poppins, sans-serif;
+  text-align: center;
+}
+
+#privacy-text {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  color: var(--bs-emphasis-color);
+}
+
+@media (min-width: 992px) {
+  #form-text {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    font-size: 22px;
+  }
+}
+
+#line {
+  width: 80%;
+  height: 2px;
+  color: rgb(194,194,194);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#footer-text {
+  font-family: Poppins, sans-serif;
+  color: rgb(162,162,162);
+  font-size: 13px;
+  text-align: center;
+}
+
+#top-container {
+  background: #0E3045;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  padding: 12px;
+}
+
+
+@media (max-width: 767px) {
+	
+	#nick-kate{
+		max-width:unset;
+	}
+}
